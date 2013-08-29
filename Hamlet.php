@@ -1,8 +1,9 @@
 <?php
 
-function hamlet () {
-  $question = "be || !(be)";
-  return $question;
-}
-  hamlet();
+  function hamlet ( $question ) {
+    return rand(0,1);
+  }
+  
+  hamlet( "be || !(be)" );
+  
 ?>
